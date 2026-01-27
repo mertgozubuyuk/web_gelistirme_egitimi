@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Tag</title>
+  </head>
+  <body>
+    <h1>Button Kullanımı</h1>
+    <form action="/islem">
+      <p>
+        <label for="username">Adınızı Giriniz:</label>
+        <input type="text" id="username" name="username" />
+      </p>
+      <p>
+        <label for="password">Şifrenizi Giriniz:</label>
+        <input type="password" id="password" name="password" />
+      </p>
+      <!-- Varsayılan Davranışlı Buton -->
+      <button>Varsayılan</button>
+
+      <!-- Gönder Butonu -->
+      <button type="submit">Gönder</button>
+
+      <!-- İşlemsiz Buton -->
+      <button type="button">Tıklayın</button>
+
+      <!-- Sıfırla Butonu -->
+      <button type="reset">Sıfırla</button>
+
+      <!-- Input ile Gönder -->
+      <input type="submit" value="Input Gönder" />
+    </form>
+    <br />
+    <!-- Form Dışında Bir Buton -->
+    <button type="button">Form Dışında</button>
+  </body>
+</html>
