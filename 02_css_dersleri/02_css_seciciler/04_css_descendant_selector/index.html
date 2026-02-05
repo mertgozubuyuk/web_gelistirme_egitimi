@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS'te Descendant (Soydan Gelen) Seçici</title>
+    <style>
+      h1 {
+        color: red;
+        text-align: center;
+      }
+      nav a {
+        color: darkgreen;
+      }
+      h2,
+      h3 {
+        color: red;
+      }
+      .blogger a {
+        color: blueviolet;
+      }
+      footer a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>CSS'te Descendant (Soydan Gelen) Seçici</h1>
+      <nav>
+        <a href="#">Ana Sayfa</a>
+        <a href="#">İletişim</a>
+        <a href="#">Hakkımızda</a>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <section>
+        <h2>Bağlantılar</h2>
+        <ul>
+          <li><a href="#">Bağlantı 1</a></li>
+          <li><a href="#">Bağlantı 2</a></li>
+          <li><a href="#">Bağlantı 3</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Blog Yazıları</h3>
+        <ul class="blogger">
+          <li>Yazılımdaki gelişmeler<a href="#"> Devamını oku</a></li>
+          <li>Yapay zekadaki gelişmeler<a href="#"> Devamını oku</a></li>
+        </ul>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <ul>
+        <li><a href="#">Gizlilik Politikası</a></li>
+        <li><a href="#">Detaylı bilgiler</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
