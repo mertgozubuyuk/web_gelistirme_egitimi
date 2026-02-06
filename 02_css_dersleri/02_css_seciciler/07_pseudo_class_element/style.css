@@ -1,0 +1,45 @@
+/*Pseudo Class*/
+
+a:visited {
+  color: red;
+}
+a:active {
+  color: green;
+}
+button:active {
+  background-color: green;
+}
+p:nth-of-type(2) {
+  font-weight: bold;
+}
+input:disabled {
+  color: blue;
+}
+input:focus {
+  outline: 2px solid red;
+  background-color: yellow;
+}
+
+/*Pseudo Elemans*/
+
+p::first-letter {
+  font-size: 32px;
+  font-weight: bold;
+  color: blue;
+}
+p::first-line {
+  color: green;
+  text-transform: uppercase;
+}
+p::selection {
+  background-color: lightblue;
+}
+h3::before {
+  content: "Önemli: ";
+  color: red;
+  font-weight: bold;
+}
+h3::after {
+  content: " (Daha fazla oku)";
+  color: blue;
+}

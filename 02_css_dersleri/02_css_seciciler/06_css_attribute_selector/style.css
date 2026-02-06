@@ -1,0 +1,26 @@
+button[disabled] {
+    color: blue;
+    background-color: gray;
+}
+button[type]{
+    background-color: red;
+    color: white;
+}
+a[target="_blank"]{
+    color:aqua;
+}
+img[src*="log"]{
+    background-color: chocolate;
+}
+div[data-info^="use"]{
+    font-weight: bolder;
+}
+img[src$=".jpg"]{
+    background-color: chartreuse;
+}
+div[class~="higlight"]{
+    background-color: darkgreen;
+}
+p[lang|="fr"]{
+    font-style: italic;
+}
