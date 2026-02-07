@@ -1,0 +1,22 @@
+p {
+  color: blue;
+}
+p {
+  color: chocolate;
+}
+div #mainhead{
+  color: indigo;
+}
+
+#mainhead {
+  color: chartreuse;
+}
+h1 {
+  color: red !important; 
+}
+.special {
+  color: blueviolet;
+}
+p{
+    color: gold;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS'de Kalıtım (Inheritance) Nedir?</title>
+    <style>
+      .container {
+        color: darkblue;
+        font-weight: bold;
+        text-align: center;
+      }
+      input,
+      textarea {
+        color: inherit;
+      }
+      p {
+        color: initial;
+        font-weight: initial;
+        text-align: initial;
+      }
+      .section4 {
+        color: red;
+      }
+      .section3 {
+        color: yellow;
+      }
+      .section4 {
+        color: unset;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <h1>Başlık</h1>
+        <p>Bu bir paragraftır</p>
+
+        <input type="text" />
+        <textarea name="" id=""></textarea>
+      </div>
+    </div>
+    <hr />
+    <div class="section3">
+      <span>Lorem ipsum dolor sit amet.</span>
+      <div class="section4">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+      </div>
+    </div>
+  </body>
+</html>
