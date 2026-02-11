@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display Kullanımı ve Özellikleri</title>
+    <style>
+      .nav-link {
+        display: inline-block;
+        width: 100px;
+        padding: 10px;
+        background-color: #f0f0f0;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid #ccc;
+      }
+      .duyuru {
+        display: block;
+        background-color: yellow;
+        margin-top: 20px;
+        padding: 15px;
+      }
+      .gizli-mesaj {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Display Kullanımı ve Özellikleri</h1>
+    <nav>
+      <a href="#" class="nav-link">Ana Sayfa</a>
+      <a href="#" class="nav-link">Haberler</a>
+      <a href="#" class="nav-link">İletişim</a>
+
+      <div class="duyuru">
+        Bu bir blok seviyeli kutudur ve tüm satırı kaplar!
+      </div>
+
+      <p class="gizli-mesaj">Bu yazıyı sayfada göremezsin.</p>
+    </nav>
+  </body>
+</html>
