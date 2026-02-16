@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS’te Opacity ve Alpha Channel Kullanımı</title>
+    <style>
+      .kutu {
+        width: 200px;
+        padding: 20px;
+        margin: 10px;
+        color: white;
+        font-weight: bold;
+        display: inline-block;
+      }
+      .opacity-box {
+        background-color: black;
+        opacity: 0.4;
+      }
+      .alpha-box {
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS’te Opacity ve Alpha Channel Kullanımı</h1>
+    <div class="kutu opacity-box">Yazı da şeffaf! (Okunması zor)</div>
+    <div class="kutu alpha-box">Sadece arka plan şeffaf, yazı net!</div>
+  </body>
+</html>
