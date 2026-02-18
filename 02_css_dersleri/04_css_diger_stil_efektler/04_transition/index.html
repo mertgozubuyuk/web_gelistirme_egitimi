@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transitions Nedir?</title>
+    <style>
+      .gecis-butonu {
+        width: 150px;
+        height: 50px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition:
+          background-color 2s ease,
+          width 2s ease;
+      }
+      .gecis-butonu:hover {
+        background-color: green;
+        width: 200px;
+      }
+      .box {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        transition: width 2s linear 1s;
+      }
+      .box:hover {
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Transitions Nedir?</h1>
+    <button class="gecis-butonu">Click Me!</button>
+    <hr />
+    <div class="box"></div>
+  </body>
+</html>
