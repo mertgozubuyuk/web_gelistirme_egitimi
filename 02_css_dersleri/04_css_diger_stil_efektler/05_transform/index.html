@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transform Nedir?</title>
+    <style>
+      .card {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: transform 0.5s ease;
+      }
+
+      .card:hover {
+        transform: rotate(10deg) scale(1.1) translateY(-20px);
+      }
+
+      .box{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        transform: scale(0.8) translateX(300px) skew(-20deg);
+        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Transform Nedir?</h1>
+
+    <div class="card">BENİ HAREKET ETTİR!</div>
+    <hr />
+    <div class="box"></div>
+    
+  </body>
+</html>
