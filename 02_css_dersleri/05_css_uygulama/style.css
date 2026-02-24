@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* CSS Reset*/
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +11,22 @@ body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
+}
+
+/*Ana Kart Stilllendirmesi*/
+.profile-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 400px;
+  border-radius: 20px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
