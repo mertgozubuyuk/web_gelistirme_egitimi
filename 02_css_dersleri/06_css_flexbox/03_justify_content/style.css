@@ -1,0 +1,80 @@
+.container-1 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.container-1 div {
+  background-color: aqua;
+  margin: 10px;
+}
+
+.container-2 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.container-2 div {
+  background-color: aqua;
+  margin: 10px;
+}
+
+.container-3 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-3 div {
+  background-color: aqua;
+  margin: 10px;
+}
+
+.container-4 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-4 div {
+  background-color: aqua;
+}
+
+.container-5 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-5 div {
+  background-color: aqua;
+}
+
+.container-6 {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container-6 div {
+  background-color: aqua;
+}
+
+.container-7 {
+  border: 1px solid red;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-7 div {
+  background-color: aqua;
+}
