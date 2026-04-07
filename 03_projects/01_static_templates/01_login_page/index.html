@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page-Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-card">
+      <form class="login-form">
+        <!-- altyazı ve bilgilere giriş-->
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Please enter your details</p>
+
+        <!-- İsim giriş işlemleri-->
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+
+        <!-- Şifre giriş işlemleri-->
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input
+            type="text"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+
+        <!-- Giriş butonu-->
+        <div>
+          <button type="submit" class="login-button">Login</button>
+        </div>
+
+        <!-- Kayıt olma işlemleri -->
+        <p class="footer-text">
+          Don't have an account? <a href="#">Sign up for free</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
